@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\meb21\Google Drev\Skole\.metadata\.plugins\org.eclipse.jdt.core
+1631903217.index
+1801687445.index
+2264723702.index
+1308107691.index
+4059807840.index
+3801151859.index

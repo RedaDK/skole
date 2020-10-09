@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+		public static void main(String[] args) {
+
+				ArrayList<String> names = new ArrayList<>(
+
+								List.of("Hans", "Viggo", "Jens", "Bente", "Bent"));
+				System.out.println(names);
+
+				names.size();
+		}
+}

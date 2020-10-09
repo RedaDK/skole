@@ -1,0 +1,12 @@
+package opg2;
+
+public class Main {
+public static void main(String[] args) {
+	
+	ArrayTest a = new ArrayTest();
+	
+	System.out.println(a);
+			
+	
+}
+}

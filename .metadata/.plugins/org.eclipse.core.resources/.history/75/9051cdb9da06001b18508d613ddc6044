@@ -1,0 +1,36 @@
+package opg2;
+
+import java.util.Arrays;
+
+public class ArrayTest {
+
+		public static void main(String[] args) {
+				int[] arr = { 2, 7, 5, 9, 6, };
+				System.out.println(Arrays.toString(arr));
+				int sum = sum(arr);
+				System.out.println("Alle tal lagt sammen i array  " + sum);
+				System.out.println();
+				double[] arrTwo = { 2.4, 7.5, 5.1, 9.8, 6.1, 7.9 };
+				System.out.println(Arrays.toString(arrTwo));
+				double sumDouble = sumDouble(arrTwo);
+				System.out.println("Alle tal lagt sammen i array  " + sumDouble);
+
+		}
+
+		public static int sum(int[] t) {
+				int total = 0;
+				for (int i = 0; i < t.length; i++) {
+						total = t[i] + total;
+				}
+				return total;
+		}
+
+		public static double sumDouble(double[] t) {
+				double total = 0;
+				for (int i = 0; i < t.length; i++) {
+						total = t[i] + total;
+				}
+				return total;
+		}
+
+}

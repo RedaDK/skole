@@ -1,0 +1,37 @@
+package opg5.ex5student;
+
+public class Student {
+		private String name;
+		private int[] grades;// containing the student's grades
+		private int gradeCount;// the current number of grades
+
+		private static final int MAX_GRADE_COUNT = 10;// maximum number of grades
+
+		public Student(String name) {
+				this.name = name;
+				this.grades = new int[Student.MAX_GRADE_COUNT];
+				this.gradeCount = 0;
+		}
+
+		public String getName() {
+				return this.name;
+		}
+
+		public int[] getGrades() {
+				return this.grades;
+		}
+
+		public int getGradeCount() {
+
+				return this.gradeCount;
+		}
+
+		//
+		public void addGrade(int grade) {
+				if (grade < gradeCount) {
+						for (int i = 0; i < grades.length; i++) {
+								gradeCount = gradeCount + grades[i];
+						}
+				}
+		}
+}

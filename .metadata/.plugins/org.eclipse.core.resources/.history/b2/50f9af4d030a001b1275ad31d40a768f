@@ -1,0 +1,79 @@
+package opg5;
+
+import java.awt.TextArea;
+
+import javafx.application.Application;
+import javafx.geometry.Insets;
+//import javafx.scene.Node;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
+
+public class MainApp extends Application {
+
+    @Override
+    public void start(Stage stage) {
+        stage.setTitle("Opgave 4 - Farenheit/Celcius");
+        GridPane pane = new GridPane();
+        this.initContent(pane);
+        pane.setPrefSize(400, 180);
+        Scene scene = new Scene(pane);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    // -------------------------------------------------------------------------
+    TextField name = new TextField();
+    TextArea box = new TextArea();
+    private void initContent(GridPane pane) {
+        // show or hide grid lines
+        pane.setGridLinesVisible(false);
+        // set padding of the pane
+        pane.setPadding(new Insets(20));
+        // set horizontal gap between components
+        pane.setHgap(10);
+        // set vertical gap between components
+        pane.setVgap(10);
+
+
+
+        //Tekst felt og label for farenheit
+        Label name = new Label("Farenheit");
+        pane.add(name, 2, 0);
+        pane.add(name, 2, 1);
+        
+        pane.add(box, 3, 5);
+        
+        
+        //Convert to celcius
+        Button calculateCel = new Button("Add person");
+        pane.add(calculateCel, 3, 1);
+        calculateCel.setOnAction(event -> this.calculateCelcius());
+        calculateCel.setPrefWidth(200);
+        GridPane.setColumnSpan(calculateCel, 2);
+    }
+
+    // ------------------------------Metoder starter her-------------------------------------------
+
+    //Metoder der convertere
+    private void calculateFarenheit() {
+    	
+    	double cel = Double.parseDouble(celcius.getText().trim());
+  
+    	double res =  9/5*cel + 32;
+ 
+    	farenheit.setText(String.valueOf(res));
+    }
+   
+    private void calculateCelcius() {
+    	
+    	double far = Double.parseDouble(farenheit.getText().trim());
+  
+    	double res =  (far - 32) / 1.8;
+ 
+    	celcius.setText(String.valueOf(res));
+    }
+}

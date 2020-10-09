@@ -1,0 +1,35 @@
+package opg2;
+
+public class ArrayTest {
+
+		public static void main(String[] args) {
+				int[] arr = { 2, 7, 5, 9, 6, };
+				int sum = sum(arr);
+				System.out.println("Totalt " + sum);
+
+//				int[] arr1 = { 2, 6, 7, 8, 9 };
+//				System.out.println("Sum " + arr1 + sum);
+		}
+
+		public static int sum(int[] t) {
+				int total = 0;
+				for (int i = 0; i < t.length; i++) {
+						total = t[i] + total;
+				}
+				return total;
+		}
+
+//	} 
+//		
+//		public static double sumDouble(double[] t ) {
+//			
+//			t = new double [] {2.3,2.6,7.2,2.9,3.145};
+//			int sumDouble = 0;
+//			for (double i : t) {
+//			    sumDouble += i;
+//			}
+//
+//			return sumDouble;
+//	} 
+
+}

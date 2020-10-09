@@ -1,0 +1,32 @@
+package opg4;
+
+import java.util.Arrays;
+
+public class ArrayTest {
+		// Main starter her
+		public static class Main {
+
+				public static void main(String[] args) {
+						// Alm. Array
+						int[] arr = { 1, 1, 1, 2 };
+						System.out.println(Arrays.toString(arr));
+						boolean sum = hasUneven(arr);
+						//System.out.println(sum);
+
+				}
+
+				// Metode der checker om der er et lige eller ulige tal i Array!!
+				public static boolean hasUneven(int[] t) {
+						boolean hest = false;
+						for (int i = 0; i < t.length; i++) {
+								if (t[i] % 2 != 0) {
+										hest = true;
+								} else {
+										hest = false;
+								}
+						}
+						return hest;
+				}
+
+		}
+}

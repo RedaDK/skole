@@ -1,0 +1,11 @@
+package opg2;
+
+public class Main {
+public static void main(String[] args) {
+	
+	ArrayTest a = new ArrayTest();
+	int[] t = {2,5};
+	a.sum(t);
+	System.out.println(a);
+}
+}

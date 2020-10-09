@@ -1,0 +1,16 @@
+package opg5.ex5student;
+
+public class TestStudent {
+
+		  public static void main(String[] args) {
+					Student s1 = new Student("Hanne");
+					Student s2 = new Student("Margrethe");
+					Student s3 = new Student("Connie");
+					// int[] grades = { 10 };
+					s1.addGrade(10);
+					System.out.println(s1.getGradeCount());
+					System.out.println("Student : "+ s1.getName() + "Kararkter : " + s1.getGrades());
+					System.out.println(s2.getName());
+
+		  }
+}

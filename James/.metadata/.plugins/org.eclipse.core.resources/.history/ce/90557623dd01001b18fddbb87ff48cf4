@@ -1,0 +1,25 @@
+package opg3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		//ArrayTest.sumArrays(3, 4);
+		//System.out.println(ar);
+		
+		int[] a = {4,6,7,2,3};
+		int[] b = {4,6,8,2,6};
+		ArrayTest ar = new ArrayTest();
+		System.out.println(ar.sumArrays(a, b));
+		
+		//res 
+		
+		//System.out.println(res);
+		
+		//ArrayTest.sumArrays(, );
+		
+	 //System.out.println(ArrayTest.sumArrays(a, b));
+	}
+	
+}

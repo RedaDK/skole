@@ -1,0 +1,74 @@
+package sep05ex1student;
+
+/**
+ * This class models an employee.
+ */
+public class Employee
+{
+    // The name of the employee.
+    private String name;
+    // Whether the employee is a trainee or not.
+    private boolean trainee;
+
+    /**
+     * Creates an employee as a trainee with the given name.
+     */
+    public Employee(String name)
+    {
+        this.name = name;
+        this.trainee = true;
+    }
+
+    /**
+     * Sets the name of the employee.
+     */
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    /**
+     * Returns the name of the employee.
+     */
+    public String getName()
+    {
+        return name;
+    }
+
+    /**
+     * Sets the trainee state of the employee.
+     */
+    public void setTrainee(boolean trainee)
+    {
+        this.trainee = trainee;
+    }
+
+    /**
+     * Returns the trainee state of the employee.
+     */
+    public boolean isTrainee()
+    {
+        return trainee;
+    }
+
+    /**
+     * Returns a description of the employee (for test purposes).
+     */
+    @Override
+    public String toString()
+    {
+        return name + " (trainee: " + trainee + ")";
+    }
+
+    /**
+     * Prints a description of the employee.
+     */
+    public void printEmployee()
+    {
+        System.out.println("*******************");
+        System.out.println("Name: " + name);
+        System.out.println("Trainee: " + trainee);
+        System.out.println("*******************");
+        System.out.println();
+    }
+}

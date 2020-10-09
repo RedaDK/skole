@@ -1,0 +1,18 @@
+package sep05ex1student;
+
+public class EmployeeApp
+{
+    public static void main(String[] args)
+    {
+        Employee e1 = new Employee("Hans", "Paulsen");
+        e1.setAge(34);
+        e1.printEmployee();
+
+        Employee e2 = new Employee("James", "Brown");
+        e2.setAge(34);
+        e2.setTrainee(false);
+        
+      
+    }
+
+}

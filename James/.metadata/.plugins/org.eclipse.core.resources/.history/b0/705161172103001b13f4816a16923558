@@ -1,0 +1,25 @@
+package opg2;
+
+import java.util.Arrays;
+
+public class ArrayTest {
+
+		public static void main(String[] args) {
+				int[] arr = { 2, 7, 5, 9, 6, };
+				System.out.println(Arrays.toString(arr));
+				int sum = sum(arr);
+				System.out.println("Totalt for  " + sum);
+				int[] arr1 = { 2, 6, 7, 8, 9 };
+				System.out.println(Arrays.toString(arr1));
+				System.out.println("Sum " + arr1 + arr);
+		}
+
+		public static int sum(int[] t) {
+				int total = 0;
+				for (int i = 0; i < t.length; i++) {
+						total = t[i] + total;
+				}
+				return total;
+		}
+
+}

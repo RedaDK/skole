@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+		public static void main(String[] args) {
+
+				// Laver en Array List af navne
+				ArrayList<String> names = new ArrayList<>(
+								// Tilføjer navne til listen
+								List.of("Hans", "Viggo", "Jens", "Bente", "Bent"));
+				System.out.println(names);
+				// Printer længden af listen
+				System.out.println(names.size());
+				// Tilføjer "Jane" til index 2
+				names.add(2, "Jane");
+				System.out.println(names);
+
+		}
+}

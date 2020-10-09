@@ -1,0 +1,15 @@
+package opgave3;
+
+public class CopierApp {
+
+	public static void main(String[] args) {
+		
+		Copier hest = new Copier();
+		hest.makeCopy(20);
+		System.out.println(hest);
+		
+		
+
+	}
+
+}

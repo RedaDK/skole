@@ -1,0 +1,14 @@
+package opg6;
+
+public class TestChild {
+
+		public static void main(String[] args) {
+				Child ch = new Child(10, true);
+
+				ch.setAge(2);
+
+				System.out.println(ch);
+
+		}
+
+}

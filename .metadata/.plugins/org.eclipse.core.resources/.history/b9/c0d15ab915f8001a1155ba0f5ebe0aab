@@ -1,0 +1,12 @@
+package opgP5_1;
+
+public class SeasonApp {
+
+	public static void main(String[] args) {
+		Season s1 = new Season(1);
+		
+		System.out.println(s1.getSeason());
+
+	}
+
+}

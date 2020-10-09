@@ -1,0 +1,18 @@
+package bogÿvelser;
+
+public class Main {
+	public static void main(String[] args) {
+	
+		int [] values = new int[10];
+		int total = 0;
+	      for (int element : values)
+	      {
+	         System.out.println(element);
+	         total = total + element;
+	      }
+
+	      System.out.println("Sum: " + total);
+	   }
+		
+	}
+

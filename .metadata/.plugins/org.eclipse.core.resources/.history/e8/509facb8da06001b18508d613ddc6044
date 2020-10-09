@@ -1,0 +1,46 @@
+package opg3;
+
+import java.util.Arrays;
+
+public class ArrayTest {
+/*
+		public static int sum(int[] t ) {
+		
+			t = new int [] {4,6,7,2,3};
+			int sum = 0;
+			for (int i : t) {
+			    sum += i;
+			}
+
+			return sum;
+	} 
+	*/	
+		public static double sumDouble(double[] t ) {
+			
+			t = new double [] {2.3,2.6,7.2,2.9,3.145};
+			int sumDouble = 0;
+			for (double i : t) {
+			    sumDouble += i;
+			}
+
+			return sumDouble;
+	} 
+	
+		public static int[] sumArrays(int[] a, int[] b) {
+			
+			int [] aOne = new int[a.length];
+			int [] bOne = new int[b.length];
+			int[] sum = new int [aOne.length];
+			
+			for(int i = 0; i < aOne.length; i++) {
+				
+					sum[i] = aOne[i] + bOne[i];
+				System.out.println(sum[i]);
+				}
+			return sum;
+			}
+		
+	}
+
+
+

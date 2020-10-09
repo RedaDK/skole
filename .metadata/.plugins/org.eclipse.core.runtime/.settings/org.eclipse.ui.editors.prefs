@@ -1,7 +1,10 @@
 AbstractTextEditor.Color.Background.SystemDefault=false
 AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
 AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+<<<<<<< HEAD
 STS4BootMarkerIndicationColor=54,81,25
+=======
+>>>>>>> 2a542fc2a98291219881cc024a63bba66f0ccd08
 eclipse.preferences.version=1
 overviewRuler_migration=migrated_3.1
 spellingEnabled=false

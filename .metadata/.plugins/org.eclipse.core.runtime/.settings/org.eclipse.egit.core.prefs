@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 GitRepositoriesView.GitDirectories=C\:\\Users\\meb21\\git\\MyLocalGit\\.git;C\:\\Users\\meb21\\git\\MyLocalGit\\skole\\.git;C\:\\Users\\meb21\\Desktop\\SkoleGit\\.git;
 GitRepositoriesView.GitDirectories.relative=C\:\\Users\\meb21\\git\\MyLocalGit\\.git;C\:\\Users\\meb21\\git\\MyLocalGit\\skole\\.git;.git;
 RepositoryGroups.uuids=
 RepositorySearchDialogSearchPath=C\:\\Users\\meb21\\git
+=======
+GitRepositoriesView.GitDirectories=C\:\\Users\\meb21\\Desktop\\skoleGit\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
+>>>>>>> 2a542fc2a98291219881cc024a63bba66f0ccd08
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

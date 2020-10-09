@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+=======
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="1"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\meb21\Desktop\skoleGit\.git"/>
+>>>>>>> 2a542fc2a98291219881cc024a63bba66f0ccd08
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/RedaDK/skole.git"/>
 		<item value="file://C:\Users\meb21\Desktop\Test"/>
@@ -10,6 +15,7 @@
 		<item value="bitbucket.org"/>
 		<item value="github.com"/>
 	</list>
+<<<<<<< HEAD
 	<list key="CommitDialog.authorValues">
 		<item value="Reda &lt;meb2111@hotmail.com&gt;"/>
 	</list>
@@ -50,5 +56,8 @@
 		<item key="DIALOG_WIDTH" value="616"/>
 		<item key="DIALOG_HEIGHT" value="458"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+=======
+	<section name="GitImportWizard">
+>>>>>>> 2a542fc2a98291219881cc024a63bba66f0ccd08
 	</section>
 </section>

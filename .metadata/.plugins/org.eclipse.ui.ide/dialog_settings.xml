@@ -7,7 +7,10 @@
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
 			<item value="C:\Users\meb21\Desktop\skoleGit\skole"/>
+<<<<<<< Updated upstream
 			<item value="C:\Users\meb21\Desktop\SkoleGit\skole"/>
+=======
+>>>>>>> Stashed changes
 		</list>
 	</section>
 </section>
